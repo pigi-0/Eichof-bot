@@ -2,9 +2,7 @@ name: Hourly Room Check
 
 on:
   schedule:
-    # Runs at minute 0 of every hour
     - cron: '0 * * * *'
-  # Allows you to manually trigger it from the Actions tab
   workflow_dispatch:
 
 jobs:
